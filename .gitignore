@@ -3,8 +3,4 @@ __pycache__/
 .pytest_cache/
 
 .vscode/
-logs/*
-reports/*
 
-!logs/latest.log
-!reports/latest_report.html
