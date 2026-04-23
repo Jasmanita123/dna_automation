@@ -1,3 +1,9 @@
+
+#Profile details 
+EXPECTED_NAME = "hashedintestuser109LastN, hashedintestuser109FirstN"
+EXPECTED_EMAIL = "hashedintestuser109@deloitte.com"
+
+
 CREATE_PURSUIT_REQUIRED_ERRORS = [
     "Client name is required",
     "Pursuit name is required",
@@ -20,9 +26,9 @@ CLIENT_DATA = {
 
 PURSUIT_DATA = {
     "proposal_type": "RFP",
-    "project_type": "Test Automation",   # replace with exact UI value
-    "country": "India",                 # replace with exact UI value
-    "billing_arrangement": "T&M",       # replace with exact UI value
+    "project_type": "Test Automation",   
+    "country": "Albania",                 
+    "billing_arrangement": "T&M",       
     "start_date": "01/05/2026",
     "end_date": "31/05/2026",
     "jupiter_id": "JUP-12345",

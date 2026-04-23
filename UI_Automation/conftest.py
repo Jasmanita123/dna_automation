@@ -5,8 +5,8 @@ from datetime import datetime
 import pytest
 from playwright.sync_api import sync_playwright
 
-from Framework.pages.login_page import LoginPage
-from Framework.utils.config import USERNAME, PASSWORD
+from UI_Automation.pages.login_page import LoginPage
+from UI_Automation.utils.config import USERNAME, PASSWORD
 
 REPORT_DIR = "reports"
 PASS_DIR = os.path.join(REPORT_DIR, "screenshots", "passed")
