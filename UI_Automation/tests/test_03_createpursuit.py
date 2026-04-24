@@ -3,7 +3,7 @@ import time
 from UI_Automation.pages.create_pursuit_page import CreatePursuitPage
 from UI_Automation.utils.logger import get_logger
 from UI_Automation.utils.test_data import CLIENT_DATA, CREATE_PURSUIT_REQUIRED_ERRORS, PURSUIT_DATA
-
+import UI_Automation.utils.test_data as test_data
 
 logger = get_logger(__name__)
 
@@ -15,6 +15,7 @@ def test_create_pursuit(logged_in_page):
 
         client_name = f"AutoClient_{int(time.time())}"
         pursuit_name = f"AutoPursuit_{int(time.time())}"
+        test_data.CREATED_PURSUIT_NAME = pursuit_name
 
         #Create a pursuit by clicking on the create pursuit option available in the side pane
         logger.info("Opening Create Pursuit page")

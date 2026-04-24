@@ -1,151 +1,18 @@
-2026-04-23 19:16:39,340 | INFO | UI_Automation.pages.login_page | Navigating to URL: https://dna-preprod.hashedin.com/pursuits/
-2026-04-23 19:16:40,599 | INFO | UI_Automation.pages.login_page | Navigation completed successfully
-2026-04-23 19:16:40,599 | INFO | UI_Automation.pages.login_page | Clicking on 'Login using SSO'
-2026-04-23 19:16:41,981 | INFO | UI_Automation.pages.login_page | 'Login using SSO' clicked successfully
-2026-04-23 19:16:41,985 | INFO | UI_Automation.pages.login_page | Login started
-2026-04-23 19:16:41,985 | INFO | UI_Automation.pages.login_page | Entering username: hashedintestuser109
-2026-04-23 19:16:42,873 | INFO | UI_Automation.pages.login_page | Entering password
-2026-04-23 19:16:42,901 | INFO | UI_Automation.pages.login_page | Clicking Sign In button
-2026-04-23 19:16:55,030 | INFO | UI_Automation.pages.login_page | Checking for close popup
-2026-04-23 19:16:55,152 | INFO | UI_Automation.pages.login_page | Popup closed successfully
-2026-04-23 19:16:55,153 | INFO | UI_Automation.pages.login_page | Login completed successfully
-2026-04-23 19:16:55,178 | INFO | UI_Automation.tests.test_createpursuit | Test started: Create Pursuit
-2026-04-23 19:16:55,178 | INFO | UI_Automation.tests.test_createpursuit | Opening Create Pursuit page
-2026-04-23 19:16:55,179 | INFO | UI_Automation.pages.create_pursuit_page | Clicking Create Pursuit option
-2026-04-23 19:16:55,572 | INFO | UI_Automation.pages.create_pursuit_page | Create Pursuit option clicked successfully
-2026-04-23 19:16:55,572 | INFO | UI_Automation.tests.test_createpursuit | Validating required field errors
-2026-04-23 19:16:55,572 | INFO | UI_Automation.pages.create_pursuit_page | Clicking Create button without entering data
-2026-04-23 19:16:56,322 | INFO | UI_Automation.pages.create_pursuit_page | Validating required field error messages
-2026-04-23 19:16:56,322 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Client name is required
-2026-04-23 19:16:56,346 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Pursuit name is required
-2026-04-23 19:16:56,362 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Proposal type is required
-2026-04-23 19:16:56,381 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Project type is required
-2026-04-23 19:16:56,399 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Country is required
-2026-04-23 19:16:56,418 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Industry is required
-2026-04-23 19:16:56,434 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Sector is required
-2026-04-23 19:16:56,448 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Billing arrangement is required
-2026-04-23 19:16:56,467 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Date range is required
-2026-04-23 19:16:56,481 | INFO | UI_Automation.pages.create_pursuit_page | Checking error message: Resolve all the errors to proceed
-2026-04-23 19:16:56,499 | INFO | UI_Automation.pages.create_pursuit_page | All required field errors are visible
-2026-04-23 19:16:58,659 | INFO | UI_Automation.pages.create_pursuit_page | Navigated back to Demand Pursuits
-2026-04-23 19:16:58,659 | INFO | UI_Automation.pages.create_pursuit_page | Clicking Create Pursuit option
-2026-04-23 19:16:58,778 | INFO | UI_Automation.pages.create_pursuit_page | Create Pursuit option clicked successfully
-2026-04-23 19:16:58,778 | INFO | UI_Automation.tests.test_createpursuit | Validating footer buttons
-2026-04-23 19:16:58,778 | INFO | UI_Automation.pages.create_pursuit_page | Validating footer buttons
-2026-04-23 19:16:59,264 | INFO | UI_Automation.pages.create_pursuit_page | Footer buttons are visible
-2026-04-23 19:16:59,264 | INFO | UI_Automation.tests.test_createpursuit | Adding new client
-2026-04-23 19:16:59,264 | INFO | UI_Automation.pages.create_pursuit_page | Clicking Add Client icon
-2026-04-23 19:16:59,461 | INFO | UI_Automation.pages.create_pursuit_page | Add Client icon clicked successfully
-2026-04-23 19:16:59,461 | INFO | UI_Automation.pages.create_pursuit_page | Adding new client: AutoClient_1776952015
-2026-04-23 19:16:59,461 | INFO | UI_Automation.pages.create_pursuit_page | Getting modal dialog
-2026-04-23 19:16:59,511 | INFO | UI_Automation.pages.create_pursuit_page | Selecting dropdown option for Industry: Cross Industry
-2026-04-23 19:16:59,511 | INFO | UI_Automation.pages.create_pursuit_page | Getting modal dialog
-2026-04-23 19:16:59,915 | INFO | UI_Automation.pages.create_pursuit_page | Selecting visible option: Cross Industry
-2026-04-23 19:17:00,298 | INFO | UI_Automation.pages.create_pursuit_page | Selecting dropdown option for Sector: Others
-2026-04-23 19:17:00,298 | INFO | UI_Automation.pages.create_pursuit_page | Getting modal dialog
-2026-04-23 19:17:00,391 | INFO | UI_Automation.pages.create_pursuit_page | Selecting visible option: Others
-2026-04-23 19:17:01,364 | INFO | UI_Automation.pages.create_pursuit_page | New client added successfully
-2026-04-23 19:17:01,364 | INFO | UI_Automation.tests.test_createpursuit | Filling pursuit details
-2026-04-23 19:17:01,364 | INFO | UI_Automation.pages.create_pursuit_page | Filling pursuit details for: AutoPursuit_1776952015
-2026-04-23 19:17:01,364 | INFO | UI_Automation.pages.create_pursuit_page | Filling input field: input[placeholder='Enter pursuit name']
-2026-04-23 19:17:01,466 | INFO | UI_Automation.pages.create_pursuit_page | Selecting dropdown Proposal Type: RFP
-2026-04-23 19:17:01,588 | INFO | UI_Automation.pages.create_pursuit_page | Selecting visible option: RFP
-2026-04-23 19:17:02,104 | INFO | UI_Automation.pages.create_pursuit_page | Selecting dropdown Type of Project: Test Automation
-2026-04-23 19:17:02,269 | INFO | UI_Automation.pages.create_pursuit_page | Selecting visible option: Test Automation
-2026-04-23 19:17:02,800 | INFO | UI_Automation.pages.create_pursuit_page | Selecting dropdown Country: Albania
-2026-04-23 19:17:02,970 | INFO | UI_Automation.pages.create_pursuit_page | Selecting visible option: Albania
-2026-04-23 19:17:03,434 | INFO | UI_Automation.pages.create_pursuit_page | Selecting dropdown Billing Arrangement: T&M
-2026-04-23 19:17:03,611 | INFO | UI_Automation.pages.create_pursuit_page | Selecting visible option: T&M
-2026-04-23 19:17:04,119 | INFO | UI_Automation.pages.create_pursuit_page | Selecting date range from 01/05/2026 to 31/05/2026
-2026-04-23 19:17:05,208 | INFO | UI_Automation.pages.create_pursuit_page | Filling input field: input[placeholder='Enter jupiter ID']
-2026-04-23 19:17:05,332 | INFO | UI_Automation.pages.create_pursuit_page | Pursuit details filled successfully
-2026-04-23 19:17:05,332 | INFO | UI_Automation.tests.test_createpursuit | Creating pursuit
-2026-04-23 19:17:05,332 | INFO | UI_Automation.pages.create_pursuit_page | Clicking Create button
-2026-04-23 19:17:07,567 | INFO | UI_Automation.pages.create_pursuit_page | Create button clicked successfully
-2026-04-23 19:17:07,567 | INFO | UI_Automation.tests.test_createpursuit | Validating success message
-2026-04-23 19:17:07,567 | INFO | UI_Automation.pages.create_pursuit_page | Validating success message after pursuit creation
-2026-04-23 19:17:07,586 | INFO | UI_Automation.pages.create_pursuit_page | Success message is visible
-2026-04-23 19:17:07,586 | INFO | UI_Automation.tests.test_createpursuit | Test passed: Create Pursuit completed successfully
-2026-04-23 19:17:11,925 | INFO | UI_Automation.pages.login_page | Navigating to URL: https://dna-preprod.hashedin.com/pursuits/
-2026-04-23 19:17:13,417 | INFO | UI_Automation.pages.login_page | Navigation completed successfully
-2026-04-23 19:17:13,417 | INFO | UI_Automation.pages.login_page | Clicking on 'Login using SSO'
-2026-04-23 19:17:14,441 | INFO | UI_Automation.pages.login_page | 'Login using SSO' clicked successfully
-2026-04-23 19:17:14,441 | INFO | UI_Automation.pages.login_page | Login started
-2026-04-23 19:17:14,441 | INFO | UI_Automation.pages.login_page | Entering username: hashedintestuser109
-2026-04-23 19:17:14,865 | INFO | UI_Automation.pages.login_page | Entering password
-2026-04-23 19:17:14,915 | INFO | UI_Automation.pages.login_page | Clicking Sign In button
-2026-04-23 19:17:31,991 | INFO | UI_Automation.pages.login_page | Checking for close popup
-2026-04-23 19:17:32,078 | INFO | UI_Automation.pages.login_page | Popup closed successfully
-2026-04-23 19:17:32,078 | INFO | UI_Automation.pages.login_page | Login completed successfully
-2026-04-23 19:17:32,103 | INFO | UI_Automation.tests.test_dashboard | Test started: Dashboard validation
-2026-04-23 19:17:32,104 | INFO | UI_Automation.tests.test_dashboard | Validating dashboard categories
-2026-04-23 19:17:32,104 | INFO | UI_Automation.pages.dashboard_page | Validating dashboard categories
-2026-04-23 19:17:32,104 | INFO | UI_Automation.pages.dashboard_page | Getting dashboard categories
-2026-04-23 19:17:32,184 | INFO | UI_Automation.pages.dashboard_page | Categories found: ['All421', 'New280', 'In Progress49', 'Cancelled70', 'Won19', 'Deferred03']
-2026-04-23 19:17:32,184 | INFO | UI_Automation.pages.dashboard_page | Dashboard categories validated successfully
-2026-04-23 19:17:32,184 | INFO | UI_Automation.tests.test_dashboard | Logging category counts
-2026-04-23 19:17:32,184 | INFO | UI_Automation.pages.dashboard_page | Printing category counts
-2026-04-23 19:17:32,184 | INFO | UI_Automation.pages.dashboard_page | Getting dashboard categories
-2026-04-23 19:17:32,224 | INFO | UI_Automation.pages.dashboard_page | Categories found: ['All421', 'New280', 'In Progress49', 'Cancelled70', 'Won19', 'Deferred03']
-2026-04-23 19:17:32,224 | INFO | UI_Automation.pages.dashboard_page | Category/Card Count -> All421
-2026-04-23 19:17:32,224 | INFO | UI_Automation.pages.dashboard_page | Category/Card Count -> New280
-2026-04-23 19:17:32,224 | INFO | UI_Automation.pages.dashboard_page | Category/Card Count -> In Progress49
-2026-04-23 19:17:32,224 | INFO | UI_Automation.pages.dashboard_page | Category/Card Count -> Cancelled70
-2026-04-23 19:17:32,224 | INFO | UI_Automation.pages.dashboard_page | Category/Card Count -> Won19
-2026-04-23 19:17:32,224 | INFO | UI_Automation.pages.dashboard_page | Category/Card Count -> Deferred03
-2026-04-23 19:17:32,224 | INFO | UI_Automation.tests.test_dashboard | Validating List of Pursuits option
-2026-04-23 19:17:32,224 | INFO | UI_Automation.pages.dashboard_page | Validating List of Pursuits option
-2026-04-23 19:17:32,245 | INFO | UI_Automation.pages.dashboard_page | List of Pursuits option is visible
-2026-04-23 19:17:32,245 | INFO | UI_Automation.tests.test_dashboard | Validating profile details
-2026-04-23 19:17:32,245 | INFO | UI_Automation.pages.dashboard_page | Validating profile details
-2026-04-23 19:17:32,261 | INFO | UI_Automation.pages.dashboard_page | Profile container is visible
-2026-04-23 19:17:32,278 | INFO | UI_Automation.pages.dashboard_page | Profile name validated: hashedintestuser109LastN, hashedintestuser109FirstN
-2026-04-23 19:17:32,635 | INFO | UI_Automation.pages.dashboard_page | Clicked profile trigger
-2026-04-23 19:17:32,657 | INFO | UI_Automation.pages.dashboard_page | Profile email validated: hashedintestuser109@deloitte.com
-2026-04-23 19:17:32,660 | INFO | UI_Automation.tests.test_dashboard | Clicking Applications icon
-2026-04-23 19:17:32,660 | INFO | UI_Automation.pages.dashboard_page | Clicking Applications icon
-2026-04-23 19:17:32,845 | INFO | UI_Automation.pages.dashboard_page | Applications icon clicked successfully
-2026-04-23 19:17:32,845 | INFO | UI_Automation.tests.test_dashboard | Clicking Notifications icon
-2026-04-23 19:17:32,845 | INFO | UI_Automation.pages.dashboard_page | Clicking Notifications icon
-2026-04-23 19:17:33,061 | INFO | UI_Automation.pages.dashboard_page | Notifications icon clicked successfully
-2026-04-23 19:17:33,061 | INFO | UI_Automation.tests.test_dashboard | Opening left pane
-2026-04-23 19:17:33,065 | INFO | UI_Automation.pages.dashboard_page | Opening left pane
-2026-04-23 19:17:33,162 | INFO | UI_Automation.pages.dashboard_page | Left pane opened successfully
-2026-04-23 19:17:33,162 | INFO | UI_Automation.tests.test_dashboard | Validating left pane options
-2026-04-23 19:17:33,162 | INFO | UI_Automation.pages.dashboard_page | Validating left pane options
-2026-04-23 19:17:33,178 | INFO | UI_Automation.pages.dashboard_page | Collapse button is visible
-2026-04-23 19:17:33,187 | INFO | UI_Automation.pages.dashboard_page | Demand Pursuits option is visible
-2026-04-23 19:17:33,209 | INFO | UI_Automation.pages.dashboard_page | Create Pursuit option is visible
-2026-04-23 19:17:33,209 | INFO | UI_Automation.pages.dashboard_page | Left pane options validated successfully
-2026-04-23 19:17:33,209 | INFO | UI_Automation.tests.test_dashboard | Test passed: Dashboard validation completed successfully
-2026-04-23 19:17:37,161 | INFO | UI_Automation.tests.test_login | Test started: Login validation
-2026-04-23 19:17:37,161 | INFO | UI_Automation.tests.test_login | Launching DNA Pursuit application
-2026-04-23 19:17:37,161 | INFO | UI_Automation.pages.login_page | Navigating to URL: https://dna-preprod.hashedin.com/pursuits/
-2026-04-23 19:17:38,028 | INFO | UI_Automation.pages.login_page | Navigation completed successfully
-2026-04-23 19:17:38,029 | INFO | UI_Automation.tests.test_login | Clicking Login using SSO
-2026-04-23 19:17:38,029 | INFO | UI_Automation.pages.login_page | Clicking on 'Login using SSO'
-2026-04-23 19:17:38,982 | INFO | UI_Automation.pages.login_page | 'Login using SSO' clicked successfully
-2026-04-23 19:17:38,982 | INFO | UI_Automation.tests.test_login | Performing login with username and password
-2026-04-23 19:17:38,982 | INFO | UI_Automation.pages.login_page | Login started
-2026-04-23 19:17:38,982 | INFO | UI_Automation.pages.login_page | Entering username: hashedintestuser109
-2026-04-23 19:17:39,376 | INFO | UI_Automation.pages.login_page | Entering password
-2026-04-23 19:17:39,396 | INFO | UI_Automation.pages.login_page | Clicking Sign In button
-2026-04-23 19:17:50,810 | INFO | UI_Automation.pages.login_page | Checking for close popup
-2026-04-23 19:17:50,906 | INFO | UI_Automation.pages.login_page | Popup closed successfully
-2026-04-23 19:17:50,906 | INFO | UI_Automation.pages.login_page | Login completed successfully
-2026-04-23 19:17:50,910 | INFO | UI_Automation.tests.test_login | Validating successful login
-2026-04-23 19:17:50,910 | INFO | UI_Automation.pages.login_page | Validating whether user is logged in
-2026-04-23 19:17:50,934 | INFO | UI_Automation.pages.login_page | Login validation successful, dashboard is visible
-2026-04-23 19:17:50,934 | INFO | UI_Automation.tests.test_login | Waiting for pursuits page URL
-2026-04-23 19:17:50,953 | INFO | UI_Automation.tests.test_login | Test passed: User logged in successfully and landed on pursuits page
-2026-04-23 19:17:54,407 | INFO | UI_Automation.pages.login_page | Navigating to URL: https://dna-preprod.hashedin.com/pursuits/
-2026-04-23 19:17:55,431 | INFO | UI_Automation.pages.login_page | Navigation completed successfully
-2026-04-23 19:17:55,432 | INFO | UI_Automation.pages.login_page | Clicking on 'Login using SSO'
-2026-04-23 19:17:56,632 | INFO | UI_Automation.pages.login_page | 'Login using SSO' clicked successfully
-2026-04-23 19:17:56,632 | INFO | UI_Automation.pages.login_page | Login started
-2026-04-23 19:17:56,632 | INFO | UI_Automation.pages.login_page | Entering username: hashedintestuser109
-2026-04-23 19:17:57,586 | INFO | UI_Automation.pages.login_page | Entering password
-2026-04-23 19:17:57,633 | INFO | UI_Automation.pages.login_page | Clicking Sign In button
-2026-04-23 19:18:09,329 | INFO | UI_Automation.pages.login_page | Checking for close popup
-2026-04-23 19:18:09,434 | INFO | UI_Automation.pages.login_page | Popup closed successfully
-2026-04-23 19:18:09,434 | INFO | UI_Automation.pages.login_page | Login completed successfully
+2026-04-24 11:59:29,823 | INFO | UI_Automation.pages.login_page | Navigating to URL: https://dna-preprod.hashedin.com/pursuits/
+2026-04-24 11:59:34,655 | INFO | UI_Automation.pages.login_page | Navigation completed successfully
+2026-04-24 11:59:34,655 | INFO | UI_Automation.pages.login_page | Clicking on 'Login using SSO'
+2026-04-24 11:59:35,962 | INFO | UI_Automation.pages.login_page | 'Login using SSO' clicked successfully
+2026-04-24 11:59:35,962 | INFO | UI_Automation.pages.login_page | Login started
+2026-04-24 11:59:35,962 | INFO | UI_Automation.pages.login_page | Entering username: hashedintestuser109
+2026-04-24 11:59:36,821 | INFO | UI_Automation.pages.login_page | Entering password
+2026-04-24 11:59:36,833 | INFO | UI_Automation.pages.login_page | Clicking Sign In button
+2026-04-24 11:59:49,151 | INFO | UI_Automation.pages.login_page | Checking for close popup
+2026-04-24 11:59:49,228 | INFO | UI_Automation.pages.login_page | Popup closed successfully
+2026-04-24 11:59:49,228 | INFO | UI_Automation.pages.login_page | Login completed successfully
+2026-04-24 11:59:49,245 | INFO | test_demand_pursuit_update | Starting Demand Pursuit update test
+2026-04-24 11:59:49,245 | INFO | test_demand_pursuit_update | Navigating to Demand Pursuit page
+2026-04-24 11:59:49,666 | INFO | test_demand_pursuit_update | Clicking search icon
+2026-04-24 11:59:49,752 | INFO | test_demand_pursuit_update | Waiting for search input
+2026-04-24 11:59:49,766 | INFO | test_demand_pursuit_update | Filling search with value: AutoPursuit_1777003318
+2026-04-24 11:59:49,798 | INFO | test_demand_pursuit_update | Waiting for search results to load
+2026-04-24 11:59:55,952 | INFO | test_demand_pursuit_update | Validating pursuit details page

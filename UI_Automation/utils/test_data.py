@@ -34,3 +34,11 @@ PURSUIT_DATA = {
     "jupiter_id": "JUP-12345",
     "description": "Created through automation",
 }
+
+CREATED_PURSUIT_NAME = "AutoPursuit_1777003318"
+CLIENT_NAME_CELL="AutoClient_1..."
+class DemandPursuitData:
+    UPDATED_STATUS = "In Progress"
+    UPDATED_DESCRIPTION = "Updated through Playwright automation."
+    UPDATED_REFERENCE = "REF-AUTO-001"
+    COMMENT_TEXT = "Automation comment added for pursuit update validation."
